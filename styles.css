@@ -1,5 +1,73 @@
+*{
+    margin: 0;
+}
+@font-face{
+    font-family: 'Poppins';
+    src: url("https://fonts.google.com/specimen/Poppins") format('woff2');
+
+}  
+  .wrapper{
+    width: 375px;
+    margin: 0 auto;
+}
+
 header{
-    background: blue;
+    background-image: url('./img/bg-hero-mobile.svg');
+    background-color: rgba(221, 239, 255, 0.45);
+    background-repeat: no-repeat;
+
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10px;
+}
+
+#logo{
+    width: 120px;
+    height: 20px;
+}
+.nav-button{
+    width: 120px;
+    background: white;
+    color: black;
+    padding: 5px;
+    border-radius: 30px;
+    border: 0px;
+    -webkit-box-shadow: 4px 5px 24px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 5px 24px -8px rgba(0,0,0,0.75);
+box-shadow: 4px 5px 24px -8px rgba(0,0,0,0.75);
+}
+.header-text{
+    margin: 10px 30px;
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+.header-text__title{
+    padding: 10px 0;
+}
+
+.header-button{
+    background: hsl(322, 100%, 66%);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 250px;
+    border-radius: 70px;
+    border: 0px;
+    -webkit-box-shadow: 4px 5px 24px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 5px 24px -8px rgba(0,0,0,0.75);
+    box-shadow: 4px 5px 24px -8px rgba(0,0,0,0.75);
+    margin: 30px 0;
+}
+
+
+#mockup{
+    width: 320px;
+    height: 250px;
+    margin: 10px 30px;
 }
 
 article{
