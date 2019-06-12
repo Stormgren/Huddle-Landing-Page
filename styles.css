@@ -244,6 +244,7 @@ margin: 20px 10px;
         flex-direction: row;
         justify-content: space-around;
         padding: 10px 20px;
+        
     }
 
      .header-text{
@@ -252,7 +253,9 @@ margin: 20px 10px;
         width: 600px;
         font-size: 18px;
         padding-top: 50px;
+
     }
+
 
     #mockup{
         width: 700px;
@@ -275,6 +278,31 @@ margin: 20px 10px;
     }
     .container__one, .container__three{
         flex-direction: row-reverse;
+        animation-duration: 1s;
+        animation-name: slidein;
+    }
+    
+    @keyframes slidein {
+        from {
+            margin-left:50%;
+        } to {
+            margin-left: 25%;
+        }
+        
+    }
+
+    .container__two{
+        animation-duration: 1s;
+        animation-name: slidein-right;
+    }
+
+    @keyframes slidein-right {
+        from {
+            margin-right:50%;
+        } to {
+            margin-right: 25%;
+        }
+        
     }
 
     .container__title{
@@ -295,6 +323,16 @@ margin: 20px 10px;
         width: 600px;
         flex-direction: column;
         align-items: center;
+        animation: 1s;
+        animation-name: glidein;
+    }
+
+    @keyframes glidein {
+        from{
+            margin-top: 100%;
+        } to {
+            margin-top: 0%;
+        }
     }
 
     .container__form-title{
