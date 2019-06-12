@@ -411,19 +411,21 @@ margin: 20px 10px;
         flex-direction: row;
         justify-content: space-around;
         padding: 10px 20px;
-        
+        width: 100%;
     }
 
      .header-text{
         margin: 10px 50px;
         text-align: left;
-        width: 600px;
+        width: 1000px;
         font-size: 18px;
         padding-top: 50px;
 
     }
 
-
+    .header-text__title{
+        font-size: 24px;
+    }
     #mockup{
         width: 700px;
         height: 400px;
