@@ -2,11 +2,6 @@
     margin: 0;
     margin-top: -10px;
 }
-@font-face{
-    font-family: 'Poppins';
-    src: url("https://fonts.google.com/specimen/Poppins") format('woff2');
-
-}
 
 body{
     font-family: 'Open Sans';
@@ -221,4 +216,50 @@ margin: 20px 10px;
     margin-bottom: 30px;
     margin-top: 10px;
     font-size: 14px;
+}
+
+@media (min-width: 575px){
+    .wrapper{
+        width: 100%;
+    }
+    header{
+        background-image: url('./img/bg-hero-desktop.svg');
+        padding: 15px 50px;
+    }
+    .nav{
+        padding: 30px;
+    }
+    #logo{
+        width: 180px;
+        height: 30px;
+    }
+    .nav-button{
+        width: 180px;
+        padding: 10px;
+        font-weight: bold;
+    }
+
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 10px 20px;
+    }
+
+     .header-text{
+        margin: 10px 50px;
+        text-align: left;
+        width: 600px;
+        font-size: 18px;
+        padding-top: 50px;
+    }
+
+    #mockup{
+        width: 700px;
+        height: 400px;
+    } 
+    .header-button{
+        font-size: 18px;
+    }
+
 }
