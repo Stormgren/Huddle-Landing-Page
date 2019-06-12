@@ -43,6 +43,17 @@ header{
 -moz-box-shadow: 4px 5px 24px -8px rgba(0,0,0,0.75);
 box-shadow: 4px 5px 24px -8px rgba(0,0,0,0.75);
 }
+
+.nav-button a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-button a:hover{
+    font-size: 15px;
+    padding: 3px;
+    font-weight: bold;
+}
 .header-text{
     margin: 10px auto;
     text-align: center;
@@ -57,7 +68,6 @@ box-shadow: 4px 5px 24px -8px rgba(0,0,0,0.75);
 
 .header-button{
     background: hsl(322, 100%, 66%);
-    color: white;
     text-align: center;
     padding: 10px;
     width: 250px;
@@ -67,6 +77,18 @@ box-shadow: 4px 5px 24px -8px rgba(0,0,0,0.75);
     -moz-box-shadow: 4px 5px 24px -8px rgba(0,0,0,0.75);
     box-shadow: 4px 5px 24px -8px rgba(0,0,0,0.75);
     margin: 30px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.header-button a{
+    color: white;
+    text-decoration: none;
+}
+
+.header-button a:hover{
+    font-size: 20px; 
+    padding: 15px;
 }
 
 
