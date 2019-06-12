@@ -83,7 +83,7 @@ box-shadow: 4px 5px 24px -8px rgba(0,0,0,0.75);
     margin: 35px;
 }
 .container{
-    width: 340px;
+    width: 350px;
     border: 0px solid black;
     border-radius: 15px;
     margin: 35px auto;
@@ -107,7 +107,7 @@ box-shadow: 4px 5px 24px -8px rgba(0,0,0,0.75);
 }
 
 .container__form{
-    width: 340px;
+    width: 350px;
     border: 0px solid black;
     border-radius: 15px;
     text-align: center;
@@ -140,6 +140,9 @@ box-shadow: 4px 5px 24px -8px rgba(0,0,0,0.75);
     margin: 10px 0;
 }
 
+footer{
+    padding:0 5px;
+}
 .footer{
     padding-top: 100px;
     background:hsl(192, 100%, 9%);
