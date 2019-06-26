@@ -140,12 +140,10 @@ box-shadow: 4px 5px 24px -8px rgba(0,0,0,0.75);
     margin-bottom: -60px;
     z-index: 999 !important;
     position: relative;
-    /* position: relative; */
+    
 }
 
-.container__form-title{
-    /* padding-bottom: 10px; */
-}
+
 
 .container__form-content{
     background: hsl(322, 100%, 66%);
@@ -181,8 +179,7 @@ footer{
     color: white;
     display: flex;
     flex-direction: column;
-    /* z-index: -1; */
-    /* font-family: 'Open Sans'; */
+   
 }
 
 .footer__logo{
@@ -288,7 +285,7 @@ margin: 20px 10px;
         animation-name: slidein; */
     }
     
-    /* @keyframes slidein {
+    /* @keyframes slidein { #################################### Need Adjustments
         from {
             margin-left:50%;
         } to {
@@ -530,7 +527,6 @@ margin: 20px 10px;
     .footer__ul{
         display: flex;
         flex-direction: row;
-        /* width: 600px; */
         justify-content: baseline;
     }
     .footer__ul-li{
