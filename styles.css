@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    margin-top: -10px;
+    margin-top: -5px;
 }
 
 body{
@@ -14,15 +14,27 @@ body{
 
 header{
     background-image: url('./img/bg-hero-mobile.svg');
-    /* background-color: rgba(221, 239, 255, 0.45);  */
     background-color: hsl(193, 100%, 96%);
     font-family: 'Poppins';
+    animation: fade-in 1s ease-in;
 }
 
+ @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+     
+      opacity: 1;
+    }
+  }
+  
 .nav{
     display: flex;
     justify-content: space-between;
-    padding: 30px 10px;
+    /* align-items: center; */
+    padding: 10px;
+    margin-top: 10px;
 }
     .header{
         width: 350px;
@@ -40,8 +52,8 @@ header{
     border-radius: 30px;
     border: 0px;
     -webkit-box-shadow: 4px 5px 24px -8px rgba(0,0,0,0.75);
--moz-box-shadow: 4px 5px 24px -8px rgba(0,0,0,0.75);
-box-shadow: 4px 5px 24px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 5px 24px -8px rgba(0,0,0,0.75);
+    box-shadow: 4px 5px 24px -8px rgba(0,0,0,0.75);
 }
 
 .nav-button a {
@@ -59,7 +71,7 @@ box-shadow: 4px 5px 24px -8px rgba(0,0,0,0.75);
     text-align: center;
     font-family: 'Poppins';
     font-weight: 600;
-    width: 320px;
+    max-width: 500px;
 }
 
 .header-text__title{
@@ -277,37 +289,11 @@ margin: 20px 10px;
     .container__text{
         text-align: left;
         padding:10px 5px;
-        /* width: 180px; */
     }
     .container__one, .container__three{
-        flex-direction: row-reverse;
-        /* animation-duration: 1s;
-        animation-name: slidein; */
+        flex-direction: row-reverse; 
     }
     
-    /* @keyframes slidein { #################################### Need Adjustments
-        from {
-            margin-left:50%;
-        } to {
-            margin-left: 25%;
-        }
-        
-    } */
-
-     /* .container__two{
-        animation-duration: 1s;
-        animation-name: glidein;
-    } */
-/*
-    @keyframes slidein-right {
-        from {
-            margin-right:50%;
-        } to {
-            margin-right: 25%;
-        }
-        
-    } */
-
     .container__title{
         font-size: 18px;
         text-align: center;
@@ -329,17 +315,8 @@ margin: 20px 10px;
         width: 600px;
         flex-direction: column;
         align-items: center;
-        animation: 1s;
-        animation-name: glidein;
     }
 
-    @keyframes glidein {
-        from{
-            margin-top: 100%;
-        } to {
-            margin-top: 0%;
-        }
-    }
     .container__form{
         width: 550px;
     }
@@ -444,32 +421,9 @@ margin: 20px 10px;
     }
     .container__one, .container__three{
         flex-direction: row-reverse;
-        /* animation-duration: 1s;
-        animation-name: slidein; */
-    }
-/*     
-    @keyframes slidein {
-        from {
-            margin-left:50%;
-        } to {
-            margin-left: 25%;
-        }
-        
-    } */
-/* 
-    .container__two{
-        animation-duration: 1s;
-        animation-name: slidein-right;
+       
     }
 
-    @keyframes slidein-right {
-        from {
-            margin-right:50%;
-        } to {
-            margin-right: 25%;
-        }
-        
-    } */
 
     .container__title{
         font-size: 24px;
@@ -489,16 +443,7 @@ margin: 20px 10px;
         width: 600px;
         flex-direction: column;
         align-items: center;
-        animation: 1s;
-        animation-name: glidein;
-    }
-
-    @keyframes glidein {
-        from{
-            margin-top: 100%;
-        } to {
-            margin-top: 0%;
-        }
+       
     }
 
     .container__form-title{
