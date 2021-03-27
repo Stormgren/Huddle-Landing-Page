@@ -1,9 +1,8 @@
 # Huddle-Landing-Page
 Landing Page for fictional Company
 
-#Live preview: 
-https://loving-pasteur-332576.netlify.app/
-
+Live preview: 
+https://huddle-landing-page-stormgren.netlify.app/
 
 Built to match frontendmentors challenge design:
 https://www.frontendmentor.io/challenges/huddle-landing-page-with-alternating-feature-blocks-5ca5f5981e82137ec91a5100
