@@ -7,7 +7,6 @@ body{
     font-family: 'Open Sans';
 }
   .wrapper{
-    /* width: 375px; */
     width: 100%;
     margin: 0 auto;
 }
@@ -32,7 +31,6 @@ header{
 .nav{
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
     padding: 10px;
     margin-top: 10px;
 }
@@ -55,17 +53,18 @@ header{
     -moz-box-shadow: 4px 5px 24px -8px rgba(0,0,0,0.75);
     box-shadow: 4px 5px 24px -8px rgba(0,0,0,0.75);
 }
+ 
+.nav-button:hover{
+    background-color: rgb(236, 236, 231);
+    cursor: pointer;
+} 
 
 .nav-button a {
     text-decoration: none;
     color: black;
+    border-bottom: 3px solid transparent;
 }
-
-.nav-button a:hover{
-    font-size: 15px;
-    padding: 3px;
-    font-weight: bold;
-}
+ 
 .header-text{
     margin: 10px auto;
     text-align: center;
@@ -93,15 +92,16 @@ header{
     font-weight: bold;
 }
 
+.header-button:hover{
+    background: hsl(322, 80%, 45%);
+    cursor: pointer;
+}
+
 .header-button a{
     color: white;
     text-decoration: none;
 }
 
-.header-button a:hover{
-    font-size: 20px; 
-    padding: 15px;
-}
 
 
 #mockup{
@@ -161,6 +161,8 @@ header{
     background: hsl(322, 100%, 66%);
     color: white;
     text-align: center;
+    font-weight: bold;
+    font-size: 18px;
     padding: 10px;
     width: 250px;
     border-radius: 70px;
@@ -170,18 +172,12 @@ header{
     box-shadow: 4px 5px 24px -8px rgba(0,0,0,0.75);
     margin: 10px 0;
 }
-.container__form-content a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    font-size: 18px; 
+.container__form-content:hover{
+    background: hsl(322, 80%, 45%);
+    cursor: pointer;
 }
 
-.container__form-content a:hover {
 
-    font-size: 20px; 
-    padding: 15px;
-}
 footer{
     padding:0 5px;
 }
@@ -229,10 +225,12 @@ margin: 20px 10px;
 .footer__ul-li a{
     text-decoration: none;
     color: white;
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 0.3s linear;
 }
 
 .footer__ul-li a:hover{
-    font-size: 25px;
+    border-bottom: 3px solid #FF4747;
 }
 
 .contact{
@@ -276,6 +274,7 @@ margin: 20px 10px;
     }
     .header-button{
         font-size: 18px;
+        color: white;
     }
     #mockup{
         margin-left: 120px;
